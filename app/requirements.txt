@@ -1,0 +1,6 @@
+tabula-py
+Flask
+Flask-Cors
+flask-swagger
+numpy
+pandas

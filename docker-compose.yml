@@ -1,0 +1,8 @@
+version: "3.7"
+servives:
+    pdfdata-extractor-api:
+        container_name: pdfdata-extractor-api
+        build: ./app
+        image: jrockr/pdfdata-extractor-api:${VERSION}
+        expose:
+            - 5000
