@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 
+RUN apt-get -o Acquire::Max-FutureTime=86400 update -y && apt-get upgrade -y
 RUN apt-get install -y curl python3.8 git python3-pip openjdk-11-jdk-headless
 
 RUN useradd -G root apiuser
